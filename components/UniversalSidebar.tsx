@@ -10,6 +10,12 @@ import {
     Info,
     ChevronLeft,
     ChevronRight,
+    BookOpen,
+    Terminal,
+    BrainCircuit,
+    Puzzle,
+    FlaskConical,
+    Trophy,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useSidebar } from "@/components/SidebarContext";
@@ -17,6 +23,12 @@ import { useSidebar } from "@/components/SidebarContext";
 // ── Sidebar menu items ──────────────────────────────────────────────────
 const menuLinks = [
     { name: "My Journey", href: "/dashboard", icon: Map, accent: "cyan" },
+    { name: "Learn Modules", href: "/dashboard/learn", icon: BookOpen, accent: "cyan" },
+    { name: "Code Lab", href: "/dashboard/codelab", icon: Terminal, accent: "green" },
+    { name: "Quiz Arena", href: "/dashboard/quiz", icon: BrainCircuit, accent: "amber" },
+    { name: "Concept Games", href: "/dashboard/games", icon: Puzzle, accent: "purple" },
+    { name: "Simulations", href: "/dashboard/simulations", icon: FlaskConical, accent: "pink" },
+    { name: "Leaderboard", href: "/dashboard/leaderboard", icon: Trophy, accent: "amber" },
     { name: "Gamified Algorithm", href: "/dashboard/gamified", icon: Gamepad2, accent: "purple" },
     { name: "Code Playground", href: "/dashboard/playground", icon: PlayCircle, accent: "pink" },
     { name: "About Us", href: "/about", icon: Info, accent: "amber" },
@@ -44,6 +56,13 @@ const accentMap: Record<string, { text: string; glow: string; bar: string; bg: s
         bar: "bg-pink-400",
         bg: "bg-pink-400/10",
         shadow: "shadow-[0_0_20px_rgba(236,72,153,0.6)]",
+    },
+    green: {
+        text: "text-emerald-400",
+        glow: "drop-shadow-[0_0_8px_rgba(52,211,153,0.8)]",
+        bar: "bg-emerald-400",
+        bg: "bg-emerald-400/10",
+        shadow: "shadow-[0_0_20px_rgba(52,211,153,0.6)]",
     },
     amber: {
         text: "text-yellow-400",

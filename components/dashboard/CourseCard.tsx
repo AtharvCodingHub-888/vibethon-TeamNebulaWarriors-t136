@@ -1,13 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ChevronRight, Atom, Code, Database, BrainCircuit, Sigma, Lock } from "lucide-react";
+import { ChevronRight, Lock } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 const MotionLink = motion.create ? motion.create(Link) : (motion as any)(Link);
 
 type Subtopic = {
+    id?: string;
     title: string;
     icon: any;
     href?: string;
@@ -19,6 +20,7 @@ type CourseCardProps = {
     color: "blue" | "green" | "purple";
     subtopics: Subtopic[];
     progress?: number; // 0 to 100
+    onSelectSubtopic?: (subtopic: Subtopic) => void;
 };
 
 const colorConfig = {
@@ -69,7 +71,13 @@ const colorConfig = {
     },
 };
 
-export default function CourseCard({ title, color, subtopics, progress = 0 }: CourseCardProps) {
+export default function CourseCard({
+    title,
+    color,
+    subtopics,
+    progress = 0,
+    onSelectSubtopic,
+}: CourseCardProps) {
     const config = colorConfig[color];
 
     return (
@@ -162,6 +170,19 @@ export default function CourseCard({ title, color, subtopics, progress = 0 }: Co
                             transition: { duration: 0.2 }
                         }
                     };
+
+                    if (!topic.isLocked && onSelectSubtopic) {
+                        return (
+                            <motion.button
+                                key={topic.title}
+                                onClick={() => onSelectSubtopic(topic)}
+                                {...(motionProps as any)}
+                                className={buttonClasses}
+                            >
+                                <ButtonContent />
+                            </motion.button>
+                        );
+                    }
 
                     if (topic.href && !topic.isLocked) {
                         return (

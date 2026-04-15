@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
     return (
-        <section className="relative max-w-2xl mt-32 px-8">
+        <section className="relative max-w-2xl mx-auto mt-20 px-8 text-center">
             {/* Heading */}
             <motion.h1
                 initial={{ opacity: 0, y: 40 }}
