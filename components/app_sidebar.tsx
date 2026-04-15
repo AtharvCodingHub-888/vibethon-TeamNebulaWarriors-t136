@@ -83,7 +83,7 @@ export const AppSidebar = ({ children }: { children: React.ReactNode }) => {
                             E
                         </div>
                         <div className="grid flex-1 text-left text-sm leading-tight">
-                            <span className="truncate font-semibold text-foreground">ELEARN ML</span>
+                            <span className="truncate font-semibold text-foreground">Nebula AI</span>
                             <span className="truncate text-xs text-muted-foreground">v1.0.0</span>
                         </div>
                     </div>

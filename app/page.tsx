@@ -43,7 +43,7 @@ export default function HomePage() {
             <footer className="relative z-10 max-w-5xl mx-auto px-8 pb-12 pt-8 border-t border-white/5">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 opacity-40">
                     <p className="text-xs">
-                        © 2026 ELEARN ML — Premium Educational Experience
+                        © 2026 Nebula AI — Premium Educational Experience
                     </p>
                     <div className="flex gap-6 text-xs uppercase tracking-widest font-bold">
                         <a href="#" className="hover:text-cyan-400 transition-colors">

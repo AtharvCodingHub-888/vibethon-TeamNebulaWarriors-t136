@@ -24,7 +24,7 @@ export default function LoginPage() {
                 <div className="flex items-center justify-center gap-3 mb-10">
                     <GraduationCap className="w-10 h-10 text-cyan-400" />
                     <span className="text-2xl font-bold tracking-tight text-white">
-                        ELEARN ML
+                        Nebula AI
                     </span>
                 </div>
 

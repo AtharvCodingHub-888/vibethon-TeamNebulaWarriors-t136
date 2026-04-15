@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "ELEARN ML — Master Machine Learning in 3D",
+    title: "Nebula AI — Master Machine Learning in 3D",
     description:
         "A structured, visual sandbox for engineering students. From math foundations to deep learning — learn ML through interactive 3D environments, gamified progression, and hands-on code.",
     keywords: [
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         "engineering",
     ],
     openGraph: {
-        title: "ELEARN ML — Master Machine Learning in 3D",
+        title: "Nebula AI — Master Machine Learning in 3D",
         description:
             "A structured, visual sandbox for engineering students. From math foundations to deep learning.",
         type: "website",

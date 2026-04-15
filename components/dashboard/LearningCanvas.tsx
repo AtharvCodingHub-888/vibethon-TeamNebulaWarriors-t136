@@ -49,7 +49,7 @@ const moduleData: Record<LearningModuleId, CanvasModule> = {
                 microText: "Derivatives show how to improve model loss.",
             },
         ],
-        playgroundHref: "/dashboard/playground",
+        playgroundHref: "/learning/math",
     },
     "ai-core": {
         id: "ai-core",
@@ -76,7 +76,7 @@ const moduleData: Record<LearningModuleId, CanvasModule> = {
                 microText: "Human-readable decision paths.",
             },
         ],
-        playgroundHref: "/dashboard/codelab",
+        playgroundHref: "/learning/ai-core",
     },
     "ml-deep": {
         id: "ml-deep",
@@ -103,7 +103,7 @@ const moduleData: Record<LearningModuleId, CanvasModule> = {
                 microText: "Temporal patterns drive smarter planning.",
             },
         ],
-        playgroundHref: "/dashboard/gamified",
+        playgroundHref: "/learning/ml-deep",
     },
 };
 

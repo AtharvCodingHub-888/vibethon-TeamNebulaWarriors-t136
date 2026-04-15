@@ -13,14 +13,13 @@ export default function HeroSection() {
                 transition={{ duration: 0.9, delay: 0.3, ease: "easeOut" }}
                 className="text-5xl md:text-7xl font-bold text-white leading-tight"
             >
-                Master Machine
+                Learn AI &amp;
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-cyan-500">
-                    Learning
+                    Machine Learning
                 </span>{" "}
-                in{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
-                    3D
+                    The Fun Way
                 </span>
                 <span className="text-cyan-400">.</span>
             </motion.h1>

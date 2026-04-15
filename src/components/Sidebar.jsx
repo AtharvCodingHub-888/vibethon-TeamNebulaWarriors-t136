@@ -13,7 +13,7 @@ const Sidebar = ({ activeView, onViewChange }) => {
     return (
         <aside className="sidebar">
             <div className="sidebar-logo" style={{ marginBottom: '40px', fontSize: '20px', fontWeight: 'bold', color: 'var(--neon-cyan)' }}>
-                <span style={{ marginRight: '10px' }}>🎓</span> ELEARN ML
+                <span style={{ marginRight: '10px' }}>🎓</span> Nebula AI
             </div>
 
             <nav className="sidebar-nav">

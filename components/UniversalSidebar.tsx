@@ -109,7 +109,7 @@ export default function UniversalSidebar() {
                             exit={{ opacity: 0, width: 0 }}
                             className="text-xl font-bold tracking-tight text-white whitespace-nowrap overflow-hidden"
                         >
-                            ELEARN ML
+                            Nebula AI
                         </motion.span>
                     )}
                 </AnimatePresence>
@@ -126,9 +126,7 @@ export default function UniversalSidebar() {
             {/* ── Navigation ──────────────────────────────────── */}
             <nav className="flex flex-col gap-1.5 px-3 mt-6">
                 {menuLinks.map((link) => {
-                    const isActive =
-                        pathname === link.href ||
-                        (link.href !== "/" && pathname.startsWith(link.href));
+                    const isActive = pathname === link.href;
                     const colors = accentMap[link.accent];
 
                     return (

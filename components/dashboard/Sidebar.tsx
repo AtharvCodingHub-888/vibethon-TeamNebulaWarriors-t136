@@ -21,7 +21,7 @@ export default function Sidebar() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group mb-12">
                 <GraduationCap className="w-8 h-8 text-cyan-400 group-hover:scale-110 transition-transform" />
-                <span className="text-xl font-bold tracking-tight text-white">ELEARN ML</span>
+                <span className="text-xl font-bold tracking-tight text-white">Nebula AI</span>
             </Link>
 
             {/* Navigation */}

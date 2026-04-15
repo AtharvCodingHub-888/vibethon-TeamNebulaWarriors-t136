@@ -88,7 +88,7 @@ const GameContainer = () => {
                     <div className="ui-content" style={{ zIndex: 1, padding: '40px', position: 'relative' }}>
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '40px' }}>
                             <div style={{ color: 'var(--text-secondary)', fontFamily: 'monospace', fontSize: '12px', letterSpacing: '2px' }}>
-                                ELEARN ML / DASHBOARD
+                                Nebula AI / DASHBOARD
                             </div>
                             <div className="glass-panel" style={{ color: '#ffcc00', padding: '5px 15px', fontFamily: 'monospace' }}>
                                 🔥 {progress.totalXP} XP

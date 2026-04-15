@@ -36,7 +36,7 @@ export default function LandingNav() {
                     <Link href="/" className="flex items-center gap-2.5 group">
                         <GraduationCap className="w-7 h-7 text-cyan-400 group-hover:text-cyan-300 transition-colors" />
                         <span className="text-white font-bold text-lg tracking-wider group-hover:text-cyan-100 transition-colors">
-                            ELEARN ML
+                            Nebula AI
                         </span>
                     </Link>
                 </div>
@@ -87,7 +87,7 @@ export default function LandingNav() {
                         <div className="p-6 pb-4 flex items-center gap-3 border-b border-white/5">
                             <GraduationCap className="w-8 h-8 text-cyan-400 shrink-0" />
                             <span className="text-xl font-bold tracking-tight text-white">
-                                ELEARN ML
+                                Nebula AI
                             </span>
                         </div>
 

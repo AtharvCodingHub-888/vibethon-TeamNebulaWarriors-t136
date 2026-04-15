@@ -114,7 +114,7 @@ export default function AboutPage() {
                     className="text-xl text-white/60 max-w-2xl font-light leading-relaxed"
                 >
                     We believe complex mathematical models shouldn&apos;t be
-                    hidden in flat textbooks. ELEARN ML brings algorithms to
+                    hidden in flat textbooks. Nebula AI brings algorithms to
                     life in interactive, real-time 3D environments.
                 </motion.p>
 
@@ -205,7 +205,7 @@ export default function AboutPage() {
             <footer className="max-w-5xl mx-auto px-8 pb-12 pt-4 border-t border-white/5">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 opacity-40">
                     <p className="text-xs">
-                        © 2026 ELEARN ML — Premium Educational Experience
+                        © 2026 Nebula AI — Premium Educational Experience
                     </p>
                     <div className="flex gap-6 text-xs uppercase tracking-widest font-bold">
                         <a

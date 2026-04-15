@@ -23,7 +23,7 @@ export default function TopNav() {
             >
                 <GraduationCap className="w-7 h-7 text-cyan-400 group-hover:text-cyan-300 transition-colors" />
                 <span className="text-white font-bold text-lg tracking-wider group-hover:text-cyan-100 transition-colors">
-                    ELEARN ML
+                    Nebula AI
                 </span>
             </Link>
 
