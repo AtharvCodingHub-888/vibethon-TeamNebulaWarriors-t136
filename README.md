@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Three.js-0183-black?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" />
 </p>
 
-<h1 align="center">🧠 ELEARN ML — Master Machine Learning in 3D</h1>
+<h1 align="center">🧠 Nebula AI - Learn AIML Easy and Fun </h1>
 
 <p align="center">
   <strong>A next-generation, interactive e-learning platform that teaches Machine Learning through gamified challenges, visual sandboxes, and hands-on coding — built for engineering students who want to <em>understand</em>, not just memorize.</strong>
