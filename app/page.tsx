@@ -5,15 +5,11 @@ import HeroSection from "@/components/HeroSection";
 import FeatureCards from "@/components/FeatureCards";
 
 const LandingNav = dynamic(() => import("@/components/LandingNav"), { ssr: false });
-const SplashScreen = dynamic(() => import("@/components/SplashScreen"), {
-    ssr: false,
-});
+
 
 export default function HomePage() {
     return (
         <div className="min-h-screen relative overflow-x-hidden bg-[#030614]">
-            {/* Splash intro video */}
-            <SplashScreen />
 
             {/* Ambient background */}
             <div className="fixed inset-0 -z-10">
